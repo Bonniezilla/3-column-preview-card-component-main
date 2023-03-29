@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+@media screen and (min-width: 1920px) {
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+    color: white;
+    font-family: 'Big Shoulders Display', cursive;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+
+}
+
+img {
+    width: 55%;
+}
+
+button {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 700;
+    background: white;
+    border: none;
+    height: 15%;
+    width: 90%;
+    border-radius: 50px;
+}
+
+.container {
+    display: flex;
+    width: 50%;
+}
+
+.sedans,
+.suvs,
+.luxury {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 3rem;
+    padding-top: 10%;
+    height: 50vh;
+    width: 25vw;
+}
+
+.sedans {
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background: hsl(31, 77%, 52%);
+}
+
+.suvs {
+    background: hsl(184, 100%, 22%);
+}
+
+.luxury {
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background: hsl(179, 100%, 13%);
+}
+
+.sedans button {
+    color: hsl(31, 77%, 52%);
+}
+
+.sedans button:hover {
+    color: hsla(0, 0%, 100%, 0.9);
+    background: hsl(31, 77%, 52%);
+    border: solid hsla(0, 0%, 100%, 0.9);
+}
+
+.suvs button {
+    color: hsl(184, 100%, 22%)
+}
+
+.suvs button:hover {
+    color: hsla(0, 0%, 100%, 0.9);
+    background: hsl(184, 100%, 22%);
+    border: solid hsla(0, 0%, 100%, 0.9);
+}
+
+.luxury button {
+    color: hsl(179, 100%, 13%);
+}
+
+.luxury button:hover {
+    color: hsla(0, 0%, 100%, 0.9);
+    background: hsl(179, 100%, 13%);
+    border: solid hsla(0, 0%, 100%, 0.9);
+}
+
+.devs {
+    color: black;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Big Shoulders Display', cursive;
+    position: absolute;
+    bottom: 5%;
+}
+
+.devs a {
+    color: black;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-self: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.devs img {
+    max-width: 50px;
+}
+
+.devs ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+.devs li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+}
